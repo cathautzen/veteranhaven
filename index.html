@@ -8,26 +8,35 @@
 	<meta name="robots" content="none">
 	<meta name="author" content="Udgiver">
 	<meta name="copyright" content="Information om copyright">
-	
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display&family=Raleway&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/645a3a1c42.js" crossorigin="anonymous"></script>
 	<link href="css/styles.css" rel="stylesheet" type="text/css">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-light bg-primary">
 	<div class="container-fluid">
-		<a class="navbar-brand" href="#">VeteranHaven</a>
 		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
+			<span class="fa-solid fa-bars fa-xl "></span>
 		</button>
+		<a class="navbar-brand" href="#">
+			<img src="images/logo-icon.png" width="70px">
+		</a>
 		<div class="collapse navbar-collapse" id="navbarText">
 			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 				<li class="nav-item">
-					<a class="nav-link active" aria-current="page" href="#">Side 1</a>
+					<a class="nav-link active" aria-current="page" href="#">Video</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Side 2</a>
+					<a class="nav-link" href="#">Din vej</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="#">Side 3</a>
@@ -36,6 +45,60 @@
 		</div>
 	</div>
 </nav>
+
+<div class="container text-center mt-5">
+	<div class="row">
+		<div class="col">
+			<h1>Haveterapi for psykisk genopbyggelse i Slagelse Kommune</h1>
+		</div>
+	</div>
+</div>
+
+<div class="container mt-4">
+	<div class="row">
+		<div class="col-sm-12 col-md-6">
+			<!-- Indsæt videoen her -->
+			<video controls>
+				<source src="din_video.mp4" type="video/mp4">
+				Din browser understøtter ikke HTML5-video.
+			</video>
+		</div>
+		<div class="col-sm-12 col-md-6">
+			<div class="card card-border" style="width: 100%">
+				<div class="card-body">
+					<h5 class="card-title">Vi giver dig den støtte der skal til, for at du kan få troen på dig selv igen</h5>
+					<p class="card-text mt-1">
+						Vi ved, at overgangen til civilsamfundet kan være
+						udfordrende. Derfor ønsker vi at give dig et fristed,
+						et fællesskab og en ny start.<br>
+						<br>
+						Uanset om du har brug for støtte til at finde et job,
+						bearbejde traumer eller blot ønsker et sted, hvor du
+						kan møde andre veteraner og dele dine erfaringer,
+						så er vi her for dig. Men Veteranhaven er ikke kun
+						for veteraner. Vi ønsker også at byde pårørende
+						og virksomheder velkommen. <br>
+						<br>
+						For at få et indblik i, hvad Veteranhaven handler om,
+						anbefaler vi, at du ser vores video. Den giver dig en
+						smagsprøve på det fællesskab, vi har skabt, og de
+						historier, der har formet os.<br>
+						<br>
+						Vi ser frem til at byde dig velkommen i Veteranhaven.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="mt-4 container-fluid bg-primary">
+	<div class="row">
+		<div class="col-md-12">
+			<h2>Din vej</h2>
+		</div>
+	</div>
+</div>
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>

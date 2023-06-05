@@ -9,7 +9,8 @@ $link-decoration: none;
 
 // 4. Include any default map overrides here
 $custom-colors: (
-	"farve": $cyan-400,
+	"primary": #A1CF74,
+	"secondary": #F5A8FF,
 );
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
@@ -17,3 +18,56 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 @import "bootstrapComponents";
 
 // 5. Du kan lave styling her...
+
+.navbar-brand img{
+	position: absolute;
+	right: 30px;
+	top: -2px;
+}
+
+.navbar {
+	min-height: 55px;
+}
+
+.navbar-toggler {
+	border: 0px solid;
+	color: white;
+	 &:focus {
+		 border: 0px solid;
+		 box-shadow: none;
+	 }
+}
+
+
+
+h1 {
+	font-family: "Playfair Display", Verdana;
+	font-size: 23px;
+	font-style: italic;
+}
+
+h1 {
+	font-family: "Playfair Display", Verdana;
+	font-size: 20px;
+}
+
+video {
+	width: 100%;
+}
+
+.card-title {
+	font-family: "Playfair Display", Verdana;
+	font-size: 20px;
+	font-style: italic;
+}
+.card-border {
+	border-radius: 0px;
+	border-color: #F0F0F0;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+	background-color: #FAFAFA;
+}
+
+.card-text {
+	font-family: "Raleway", Verdana;
+	font-size: 13px;
+}
