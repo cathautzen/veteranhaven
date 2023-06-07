@@ -1,13 +1,20 @@
 <!DOCTYPE html>
 <html lang="da">
 <head>
+
+	<!-- Fortæller browser hvilken tegnsætning siden bruger -->
 	<meta charset="utf-8">
 	
-	<title>Sigende titel</title>
-	
-	<meta name="robots" content="none">
+	<title>Veteraner i Haven - Eksamens projekt 2023</title>
+
+<!-- meta tag for at vores side ikke dukker op på google -->
+	<meta name="robots" content="noindex">
+
 	<meta name="author" content="Udgiver">
 	<meta name="copyright" content="Information om copyright">
+
+	<!-- Kort beskrivelse af vores side -->
+	<meta name="description" content="Kampagneside for Veteranhaven i Slagelse kommune. Her kan du få hjælp til at komme i arbejde, igennem haveterapi. Vi giver hjælp til veteraner med PTSD.">
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,52 +29,58 @@
 </head>
 
 <body>
-<nav class="navbar navbar-light bg-primary">
+<nav class="navbar navbar-light bg-primary sticky-top">
 	<div class="container-fluid">
 		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="fa-solid fa-bars fa-xl "></span>
 		</button>
-		<a class="navbar-brand" href="#">
-			<img src="images/logo-icon.png" width="70px">
+	<div class="d-none d-md-block">
+		<h2>Veteraner i Haven</h2>
+	</div>
+		<a class="navbar-brand" href="https://www.veteranhaven.dk/" target="_blank">
+			<img src="images/logo-icon.png" width="70px" alt="Veteranhaven logo">
 		</a>
 		<div class="collapse navbar-collapse" id="navbarText">
 			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 				<li class="nav-item">
-					<a class="nav-link active" aria-current="page" href="#">Video</a>
+					<a class="nav-link active" aria-current="page" href="#video">Velkommen</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Din vej</a>
+					<a class="nav-link" href="#dinvej">Din vej</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Side 3</a>
+					<a class="nav-link" href="#tilbud">Tilbud</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#kontakt">Kontakt</a>
 				</li>
 			</ul>
 		</div>
 	</div>
 </nav>
 
-<div class="container text-center mt-5">
+<div class="container text-center mt-5 px-4">
 	<div class="row">
 		<div class="col">
-			<h1>Haveterapi for psykisk genopbyggelse i Slagelse Kommune</h1>
+			<h1 class="fst-italic" id="video">Haveterapi for psykisk genopbyggelse i Slagelse Kommune</h1>
 		</div>
 	</div>
 </div>
 
-<div class="container mt-4">
+<div class="container mt-4 px-4">
 	<div class="row">
-		<div class="col-sm-12 col-md-6">
+		<div class="col-12 col-xl-6 mb-4">
 			<!-- Indsæt videoen her -->
 			<video controls>
 				<source src="din_video.mp4" type="video/mp4">
 				Din browser understøtter ikke HTML5-video.
 			</video>
 		</div>
-		<div class="col-sm-12 col-md-6">
+		<div class="col-12 col-xl-6">
 			<div class="card card-border" style="width: 100%">
 				<div class="card-body">
-					<h5 class="card-title">Vi giver dig den støtte der skal til, for at du kan få troen på dig selv igen</h5>
-					<p class="card-text mt-1">
+					<h5 class="card-title fst-italic">Vi giver dig den støtte der skal til, for at du kan få troen på dig selv igen</h5>
+					<p class="card-text mt-3">
 						Vi ved, at overgangen til civilsamfundet kan være
 						udfordrende. Derfor ønsker vi at give dig et fristed,
 						et fællesskab og en ny start.<br>
@@ -93,12 +106,181 @@
 </div>
 
 <div class="mt-4 container-fluid bg-primary">
-	<div class="row">
-		<div class="col-md-12">
-			<h2>Din vej</h2>
+	<div class="row align-items-center justify-content-center">
+		<div class="col-12 text-center mt-3">
+			<h2 id="dinvej">Din vej</h2>
+		</div>
+
+		<div class="col-12 col-sm-3 col-xl-2 text-center mt-4">
+			<span class="fa-stack fa-3xl">
+			<i class="fa-solid fa-circle fa-stack-2x fa-inverse"></i>
+			<i class="fa-solid fa-people-pulling fa-stack-1x" style="color: #7A3C82;"></i>
+			</span>
+		</div>
+
+			<div class="col-12 col-sm col-xl-1 text-center mt-3" style="color: white;">
+				<i class="d-sm-none fa-solid fa-chevron-down fa-3xl"></i>
+				<i class="d-none d-sm-block fa-solid fa-chevron-right fa-3xl"></i>
+			</div>
+
+		<div class="col-12 col-sm-3 col-xl-2 text-center mt-4">
+			<span class="fa-stack fa-3xl">
+			<i class="fa-solid fa-circle fa-stack-2x fa-inverse"></i>
+			<i class="fa-solid fa-seedling fa-stack-1x" style="color: #C473CE;"></i>
+			</span>
+		</div>
+
+	<div class="col-12 col-sm col-xl-1 text-center mt-3" style="color: white;">
+		<i class="d-sm-none fa-solid fa-chevron-down fa-3xl"></i>
+		<i class="d-none d-sm-block fa-solid fa-chevron-right fa-3xl"></i>
+	</div>
+
+		<div class="col-12 col-sm-3 col-xl-2 text-center mt-4">
+			<span class="fa-stack fa-3xl">
+			<i class="fa-solid fa-circle fa-stack-2x fa-inverse"></i>
+			<i class="fa-solid fa-handshake-simple fa-stack-1x" style="color: #F5A8FF;"></i>
+			</span>
 		</div>
 	</div>
+<br>
 </div>
+
+<div class="container text-center mt-4 px-4">
+	<div class="row">
+		<div class="col-12">
+			<h3 id="tilbud">Hvad vi kan tilbyde dig</h3>
+		</div>
+			<div class="row justify-content-center">
+				<div class="col-sm-12 col-md-3">
+					<a href="#målgruppe1"><img src="images/storicon_v.png" width="200px" alt="Virksomheds ikon"></a>
+				</div>
+				<div class="col-sm-12 col-md-3">
+					<a href="#målgruppe2"><img src="images/storicon_p.png" width="200px" alt="Pårørende ikon"></a>
+				</div>
+				<div class="col-sm-12 col-md-3">
+					<a href="#målgruppe3"><img src="images/storicon_b.png" width="200px" alt="Borger ikon"></a>
+				</div>
+			</div>
+
+	</div>
+</div>
+
+<div class="container mt-5 px-4">
+	<div class="row px-xl-5">
+		<div class="col-sm-12 col-md-4 col-xl-12">
+			<div class="card card-border mb-4" style="width: 100%" id="målgruppe1">
+				<div class="row g-xl-0">
+					<div class="col-xl-4">
+						<img src="images/audience1.png" class="card-img-top rounded-0" alt="En gren fra en blodbøg">
+					</div>
+					<div class="col-xl-8">
+						<div class="card-body">
+							<h3 class="card-title" >Virksomheder</h3>
+							<p class="card-text mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing
+								elit, sed do eiusmod tempor incididunt ut labore et
+								dolore magna aliqua.
+								Ut enim ad minim veniam, quis nostrud exercitation
+								ullamco laboris nisi ut aliquip ex ea commodo
+								consequat.</p>
+							<div class="text-center">
+								<a href="https://www.veteranhaven.dk/virksomhed" target="_blank" class="btn btn-button rounded-pill px-5 px-md-4 fs-3">KNAP <i class="fa-solid fa-angle-right"></i></a>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-sm-12 col-md-4 col-xl-12">
+			<div class="card card-border mb-4" style="width: 100%" id="målgruppe2">
+				<div class="row g-xl-0">
+					<div class="col-xl-4">
+						<img src="images/audience2.png" class="card-img-top rounded-0" alt="En gren fra en blodbøg">
+					</div>
+					<div class="col-xl-8">
+						<div class="card-body">
+							<h3 class="card-title">Pårørende</h3>
+							<p class="card-text mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing
+								elit, sed do eiusmod tempor incididunt ut labore et
+								dolore magna aliqua.
+								Ut enim ad minim veniam, quis nostrud exercitation
+								ullamco laboris nisi ut aliquip ex ea commodo
+								consequat.</p>
+							<div class="text-center">
+								<a href="https://www.veteranhaven.dk/besog-og-kontakt/alle-er-velkomne" target="_blank" class="btn btn-button rounded-pill px-5 px-md-4 fs-3">KNAP <i class="fa-solid fa-angle-right"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-sm-12 col-md-4 col-xl-12">
+			<div class="card card-border mb-4" style="width: 100%" id="målgruppe3">
+				<div class="row g-xl-0">
+					<div class="col-xl-4">
+						<img src="images/audience3.png" class="card-img-top rounded-0" alt="En gren fra en blodbøg">
+					</div>
+					<div class="col-xl-8">
+						<div class="card-body">
+							<h3 class="card-title">Borger</h3>
+							<p class="card-text mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing
+								elit, sed do eiusmod tempor incididunt ut labore et
+								dolore magna aliqua.
+								Ut enim ad minim veniam, quis nostrud exercitation
+								ullamco laboris nisi ut aliquip ex ea commodo
+								consequat.</p>
+							<div class="text-center">
+								<a href="https://www.veteranhaven.dk/du-skal-i-forlob" target="_blank" class="btn btn-button rounded-pill px-5 px-md-4 fs-3">KNAP <i class="fa-solid fa-angle-right"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+<div class="container-fluid bg-primary pb-5">
+	<div class=" container col-12 text-center">
+		<i class="mt-5 fa-solid fa-phone-volume fa-3xl custom-opacity" style="color: white;"></i>
+	</div>
+	<div class="col-12 text-center mt-3">
+		<h2 id="kontakt">Kontakt Veteranhaven</h2>
+	</div>
+<div class="col-12 text-center mt-4 text-white">
+<p> Brovej 13b Slots Bjergby<br>
+	4200 Slagelse</p>
+</div>
+	<div class="col-12 text-center mt-4 text-white">
+		Tlf. Nr.: (+45) 52 40 04 55 <br>
+		<br>
+		<b>E-mail:</b><br>
+		administration@veteranhaven.dk
+	</div>
+	<div class="col-12 text-center mt-4">
+		<a href="https://www.veteranhaven.dk/" target="_blank" class="btn btn-button rounded-pill px-4 text-uppercase">Besøg veteranhaven <i class="fa-solid fa-angle-right"></i></a>
+	</div>
+
+</div>
+
+<footer class="row container-fluid px-4">
+<div class="col-6 col-md-4 mt-4">
+	<p class="footer-text">
+		2. Semester Eksamens projekt<br>
+		Lavet af Cathrine, Lea, Frida og Cat
+	</p>
+</div>
+<div class="d-none d-md-flex align-items-end justify-content-center col-md-4">
+<a href="https://www.veteranhaven.dk/" target="_blank"><img src="images/logo-footer.png" width="100px"></a>
+</div>	
+<div class="col-6 col-md-4 d-flex justify-content-end mt-4">
+	<a href="https://www.facebook.com/VeteranHaven" target="_blank"> <img src="images/LilleBlad-f.png" width="60px" alt="Facebook ikon"></a>
+	<a href="#" target="_blank"><img src="images/LilleBlad-in.png" width="60px" alt="Linkedin ikon"></a>
+</div>
+</footer>
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
