@@ -8,7 +8,7 @@
 	<title>Veteraner i Haven - Eksamens projekt 2023</title>
 
 <!-- meta tag for at vores side ikke dukker op på google -->
-	<meta name="robots" content="noindex">
+	<meta name="robots" content="noindex, nofollow">
 
 	<meta name="author" content="Udgiver">
 	<meta name="copyright" content="Information om copyright">
@@ -26,6 +26,16 @@
 	<link href="css/styles.css" rel="stylesheet" type="text/css">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<!-- Facebook og Linked Meta Tags -->
+	<meta property="og:url" content="https://cathrineautzen.dk/veteranhaven">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Veteraner i Haven - Eksamens projekt 2023">
+	<meta property="og:description" content="Kampagneside for Veteranhaven i Slagelse kommune. Her kan du få hjælp til at komme i arbejde, igennem haveterapi. Vi giver hjælp til veteraner med PTSD.">
+	<meta property="og:image" content="http://cathrineautzen.dk/veteranhaven/images/audience2.png">
+
+
 </head>
 
 <body>
@@ -38,7 +48,7 @@
 		<h2>Veteraner i Haven</h2>
 	</div>
 		<a class="navbar-brand" href="https://www.veteranhaven.dk/" target="_blank">
-			<img src="images/logo-icon.png" width="70px" alt="Veteranhaven logo">
+			<img src="images/logo-icon.png" width="70" alt="Veteranhaven logo">
 		</a>
 		<div class="collapse navbar-collapse" id="navbarText">
 			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -70,12 +80,10 @@
 <div class="container mt-4 px-4">
 	<div class="row">
 		<div class="col-12 col-xl-6 mb-4">
-			<!-- Indsæt videoen her -->
-			<video controls>
-				<source src="din_video.mp4" type="video/mp4">
-				Din browser understøtter ikke HTML5-video.
-			</video>
-		</div>
+				<div class="video-container">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/8vp4BvZqy4Y" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				</div>
+			</div>
 		<div class="col-12 col-xl-6">
 			<div class="card card-border" style="width: 100%">
 				<div class="card-body">
@@ -152,13 +160,13 @@
 		</div>
 			<div class="row justify-content-center">
 				<div class="col-sm-12 col-md-3">
-					<a href="#målgruppe1"><img src="images/storicon_v.png" width="200px" alt="Virksomheds ikon"></a>
+					<a href="#målgruppe1"><img src="images/storicon_v.png" width="200" alt="Virksomheds ikon"></a>
 				</div>
 				<div class="col-sm-12 col-md-3">
-					<a href="#målgruppe2"><img src="images/storicon_p.png" width="200px" alt="Pårørende ikon"></a>
+					<a href="#målgruppe2"><img src="images/storicon_p.png" width="200" alt="Pårørende ikon"></a>
 				</div>
 				<div class="col-sm-12 col-md-3">
-					<a href="#målgruppe3"><img src="images/storicon_b.png" width="200px" alt="Borger ikon"></a>
+					<a href="#målgruppe3"><img src="images/storicon_b.png" width="200" alt="Borger ikon"></a>
 				</div>
 			</div>
 
@@ -176,16 +184,15 @@
 					<div class="col-xl-8">
 						<div class="card-body">
 							<h3 class="card-title" >Virksomheder</h3>
-							<p class="card-text mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing
-								elit, sed do eiusmod tempor incididunt ut labore et
-								dolore magna aliqua.
-								Ut enim ad minim veniam, quis nostrud exercitation
-								ullamco laboris nisi ut aliquip ex ea commodo
-								consequat.</p>
+							<p class="card-text mt-3">Hvis I som virksomhed står og gerne vil have styrket jeres social
+								profil, så kan vi tilbyde en god medarbejder der sætter ekstra pris på sit arbejde, som
+								tidligere har været i et forløb hos os. <br>
+								Samtidig er vi en forening der udfører et godt
+								stykke kvalitetsarbejde indenfor haveservice, så vil vi gøre en ekstra indsats for at
+								imødekomme jeres mål. </p>
 							<div class="text-center">
-								<a href="https://www.veteranhaven.dk/virksomhed" target="_blank" class="btn btn-button rounded-pill px-5 px-md-4 fs-3">KNAP <i class="fa-solid fa-angle-right"></i></a>
+								<a href="https://www.veteranhaven.dk/virksomhed" target="_blank" class="btn btn-button rounded-pill px-5 px-md-4 fs-3 text-uppercase">Læs mere <i class="fa-solid fa-angle-right"></i></a>
 							</div>
-
 						</div>
 					</div>
 				</div>
@@ -201,14 +208,12 @@
 					<div class="col-xl-8">
 						<div class="card-body">
 							<h3 class="card-title">Pårørende</h3>
-							<p class="card-text mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing
-								elit, sed do eiusmod tempor incididunt ut labore et
-								dolore magna aliqua.
-								Ut enim ad minim veniam, quis nostrud exercitation
-								ullamco laboris nisi ut aliquip ex ea commodo
-								consequat.</p>
+							<p class="card-text mt-3">Hvis du er pårørende til en person med PTSD, så har vi også tilbud
+								til dig. Du er altid velkommen til at komme på besøg hos os i Veteranhaven, om du har en
+								pårørende i forløb, eller hvis du selv har brug for at komme ud og få en god snak med de
+								frivillige i vores forening. </p>
 							<div class="text-center">
-								<a href="https://www.veteranhaven.dk/besog-og-kontakt/alle-er-velkomne" target="_blank" class="btn btn-button rounded-pill px-5 px-md-4 fs-3">KNAP <i class="fa-solid fa-angle-right"></i></a>
+								<a href="https://www.veteranhaven.dk/besog-og-kontakt/alle-er-velkomne" target="_blank" class="btn btn-button rounded-pill px-5 px-md-4 fs-3 text-uppercase">Læs mere <i class="fa-solid fa-angle-right"></i></a>
 							</div>
 						</div>
 					</div>
@@ -225,14 +230,12 @@
 					<div class="col-xl-8">
 						<div class="card-body">
 							<h3 class="card-title">Borger</h3>
-							<p class="card-text mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing
-								elit, sed do eiusmod tempor incididunt ut labore et
-								dolore magna aliqua.
-								Ut enim ad minim veniam, quis nostrud exercitation
-								ullamco laboris nisi ut aliquip ex ea commodo
-								consequat.</p>
+							<p class="card-text mt-3">Hvis du er veteran eller bare har haft modgang i livet, så tager
+								vi imod dig med åbne arme. Hos os er alle velkomne, og vi ved hvilke udfordringer det
+								kan have med sig at være psykisk sårbar. Hos os er her højt til loftet, og vi bestræber
+								os på at møde dig der hvor du er. </p>
 							<div class="text-center">
-								<a href="https://www.veteranhaven.dk/du-skal-i-forlob" target="_blank" class="btn btn-button rounded-pill px-5 px-md-4 fs-3">KNAP <i class="fa-solid fa-angle-right"></i></a>
+								<a href="https://www.veteranhaven.dk/du-skal-i-forlob" target="_blank" class="btn btn-button rounded-pill px-5 px-md-4 fs-3 text-uppercase">Læs mere <i class="fa-solid fa-angle-right"></i></a>
 							</div>
 						</div>
 					</div>
@@ -274,11 +277,11 @@
 	</p>
 </div>
 <div class="d-none d-md-flex align-items-end justify-content-center col-md-4">
-<a href="https://www.veteranhaven.dk/" target="_blank"><img src="images/logo-footer.png" width="100px"></a>
+<a href="https://www.veteranhaven.dk/" target="_blank"><img src="images/logo-footer.png" width="100" alt="Veteranhavens logo"></a>
 </div>	
 <div class="col-6 col-md-4 d-flex justify-content-end mt-4">
-	<a href="https://www.facebook.com/VeteranHaven" target="_blank"> <img src="images/LilleBlad-f.png" width="60px" alt="Facebook ikon"></a>
-	<a href="#" target="_blank"><img src="images/LilleBlad-in.png" width="60px" alt="Linkedin ikon"></a>
+	<a href="https://www.facebook.com/VeteranHaven" target="_blank"> <img src="images/LilleBlad-f.png" width="60" alt="Facebook ikon"></a>
+	<a href="#" target="_blank"><img src="images/LilleBlad-in.png" width="60" alt="Linkedin ikon"></a>
 </div>
 </footer>
 
